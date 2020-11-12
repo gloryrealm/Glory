@@ -1,0 +1,57 @@
+@media screen and (min-width:720px){
+    p{
+        font-size: 16px;
+    }
+}
+p{
+        font-size: 1em;
+    }
+body{
+    color: black; background-color:crimson; background-size: cover; background-repeat: no-repeat; text-align: left; font-weight: 600; font-family: 'Fira Sans';
+}
+.separation{
+    border-width: 2px; border-style: dashed; border-color: brown; text-align: justify; border-radius: 20px; 
+    padding:20px 30px;
+}
+.mandate{   /*shorthand margin order; top right bottom left*/
+    margin-top: 20px; margin-bottom:30px; margin-right: 20px; margin-left: 30px;
+}
+.logo-m{
+    position:static;
+}
+.dog-logo{
+    position: absolute; top: 10px; left: 20px;
+}
+.look{
+    position: relative; top: 10px;
+}
+.fix{
+    position: relative; top: 10px; left: 50px;
+}
+.block{
+    display: block;
+}
+.three, .four{
+display: inline-block; height: 20px; width: 50%; text-align: justify;
+}
+.four{
+    margin-top: 5px;
+}
+.trimmed{
+    height:50px; width:500px; overflow:auto;
+}
+.visible{
+    height:50px; width:500px; overflow:scroll; border: 1px solid #e1e1e1;
+}
+.hover:hover{
+    background-color: green;
+}
+a:active{
+    color: rgb(251, 255, 1);
+}
+a:link{
+    color: teal;
+}
+a:visited{
+    color: violet;
+}
